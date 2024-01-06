@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e5f9215146.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="C:\Users\deepa\Downloads\personal-portfolio-img\images\logo.png">
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div id="header-text">
+            <p>UI/UX designer</p>
+            <h1>HI , I' m<span>Deepak</span><br> from India</h1>
+        </div>
+    </div>
+</div>
+  
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="C:\Users\deepa\Downloads\personal-portfolio-img\images\user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>
+                   My name is Deepak.K.S. I'm from Hassan , Karnataka.I have completed by graduation in 2019. I have experience of working as Team Leader at StarApp LLC. I am experting in web development and building apps for androids.
+                </p>
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links active-link" onclick="opentab('experience')">Experience </p>
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+
+                </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web app Interfaces</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Building Android apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021-current</span><br>UI/UX Design Training at ET Intstitute</li>
+                    <li><span>2019-2021</span><br>Tean Lead At Star App LLc.</li>
+                    <li><span>2017-2019</span><br>UI/UX Design Executive At Coin Digital Ltd.</li>
+                    <li><span>2016-2017</span><br>Internship At E-cart eCommerce</li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2016</span> <br>UI/UX Design Traing at ET Institute</span></li>
+                    <li><span>2016</span> <br>MBA From MIT Bengaluru</span></li>
+                    <li><span>2014</span> <br>BBA Fromo ISM Bengaluru</span></li>
+                </ul>
+            </div>
+        </div>    
+    </div>
+</div>
+
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2> Web Design</h2>
+                <p>Web Design is a field related to designing websites on the Internet. Without a good design, a website fails to perform well and cannot produce a good impact on the user. Design is a creative process that affects the ranking of the brand. A good website design helps to create an engaging online presence that captivates the audience.</p>
+                <a href="#">Learn more</a>
+            </div>
+           
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>UX and UI designers work together to design products that are both visually appealing and user-friendly. UX designers focus on solutions to design problems that fit the needs of users. This requires gaining in-depth knowledge of what those user needs are before a user experience designer embarks on creating a design solution.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>A mobile app helps businesses reach more customers, improve marketing strategies, provide value to the customers, increase brand awareness, increase customer engagement and loyalty, and create one or more competitive advantage(s). Plus, mobile apps can improve your bottom line.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>    
+</div>
+
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class ="row">
+            <div class = "contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i> 9663610318</p>
+            <div class ="social-icons">
+                <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+                <a href="C:\Users\deepa\Downloads\personal-portfolio-img\images\my-cv.pdf"Download class="btn btn2">Download CV</a>
+         </div>    
+            <div class = "contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit </button>
+                </form> </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Deepak.Made with<i class="fa-sharp fa-solid fa-heart"></i> by Easy Tutorial </p>
+</div>
+
+  
+
+<script src="script.js"></script>
+
+    
+
+
+</body>
+</html>
